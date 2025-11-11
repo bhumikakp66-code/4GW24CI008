@@ -1,1 +1,13 @@
+INSTALLATION OF ORACLE VM VIRTUAL BOX ON WINDOWS
+1.Download the VirtualBox setup file for Windows.
+2.Run the installer (.exe file).
+3.Click Next → keep default options → click Install.
+4.Allow network installation prompts → click Yes.
+5.After installation, click Finish to open VirtualBox.
+6.Click New to create a virtual machine.
+7.Set Name, Type, and Version → click Next.
+8.Assign RAM  → click Next.
+9.Create a Virtual Hard Disk → select VDI, Dynamically allocated, set size → click Create.
+10.Go to Settings → Storage, add your ISO file.
+11.Click Start to boot and install the operating system.
 
