@@ -1,17 +1,1 @@
-DSA WORKSHOP(2K25)
-  1.create a repo for our DSA learning
-  2.create PAT with no expiry and mailed it to myself
-  3.Run the 2 configuration commands(git config --global user.name and user.email)
-  4.clone the repo to our laptop.
-  5.repo url:your repo url
-  6.template:https://PAT@url
-DOWNLOAD MINGW(sourceforge.net)
-  1.while installating , you get the list of s/w
-  2.on top left,click basic setup
-  3.select mingw base 32
-  4.select the checkbox and click mark for installation
-  3.Select gcc g++
-  6.select the checkbox and click mark for installation 
-  5.on left top corner, click installation and click apply changes and click apply
-  6.now the s/w will install
-  7.at the end, close the insatallation window
+
