@@ -1,9 +1,0 @@
-#->preprosesor
-.h->only function
-.c->gives defination or implementation
-<>->we can replace with "" search it in entire path
-& -> when the value is boolean , Long And (&&)
-  -> numeric values, bitwise and (&)
-  -> unary  
-    
----------DAY 2-------------------

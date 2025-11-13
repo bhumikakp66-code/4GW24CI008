@@ -1,0 +1,47 @@
+---------DAY 1-------------
+#->preprosesor
+.h->only function
+.c->gives defination or implementation
+<>->we can replace with "" search it in entire path
+& -> when the value is boolean , Long And (&&)
+  -> numeric values, bitwise and (&)
+  -> unary  
+    
+---------DAY 2-------------------
+SRP 
+cohersion and coupling
+Data Structure 
+array as an DS where it is easy to use and implement
+Need of invention of
+eg:
+float a[12]
+&a--address of the array
+a--address of the 1st element
+*a--value of 1st element
+-> EVERY ADDRESS HAS A PROPERTY "SIZE OF THE DT PROPERTY"
+-> size of the pointer is always 4byte in windows(depends on os) on mac and linux(8 byte)
+a[0]=value 1.0 =address 1401
+a[o]=1401
+a[1]=1405
+Q:address of first value of a[1]
+1402
+Q:address of a[1]
+1405
+a[1]=*(a+1)==value at (1401+1)=v at(1405)=2.0
+a[0]=*(a+0) =*a =v at (1401)=1.0 ((a+0) 0 means jump to no element)
+--TYPES OF POINTERS--
+NULL POINTER-> pointer which is not pointing to any location in memory
+WILD POINTER: An unintialized pointer which has some junk address.
+CONSTANT POINTER: A pointer which pointes always to the same variable.
+POINTER TO A CONSTANT:a pointer that can point to some other variable, but it cannot modify the value of the constant pointer to a constant
+CONSTANT POINTER TO A CONSTANT:
+---ARRAY---
+1D ARRAY
+&a--address of the array
+a--address of the 1st element
+*a--value of 1st element
+2D ARRAY
+&a--address of 2d array
+a--address of the 1st 1D ARRAY
+*a--address  of 1st element in 1st row
+**a value os 1st element of 1st row in the 2D array
