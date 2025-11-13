@@ -44,4 +44,4 @@ a--address of the 1st element
 &a--address of 2d array
 a--address of the 1st 1D ARRAY
 *a--address  of 1st element in 1st row
-**a value os 1st element of 1st row in the 2D array
+**a value of 1st element of 1st row in the 2D array
