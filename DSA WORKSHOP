@@ -33,6 +33,16 @@ cohersion and coupling
 Data Structure 
 array as an DS where it is easy to use and implement
 Need of invention of
+-------OFFICIAL DOCUMENTATION-------
+C/C++ MSDN, IBM Docs
+PYTHON: docs.python.com
+JAVA:docs.oracle.com
+HTML,CSS,JS: dev.mozilla
+
+nptel
+CDAC
+MIT Open University
+JAVA:1z0829,1z0830(CERTIFICATION)
 
 -----------POINTER--------------
 eg:
@@ -58,6 +68,8 @@ WILD POINTER: An unintialized pointer which has some junk address.
 CONSTANT POINTER: A pointer which pointes always to the same variable.
 POINTER TO A CONSTANT:a pointer that can point to some other variable, but it cannot modify the value of the constant pointer to a constant
 CONSTANT POINTER TO A CONSTANT:
+dangling pointer:
+
 
 ------ARRAY------
 array in C and C++ are PREMITIVE(built-in)
@@ -79,6 +91,7 @@ STRING HANDLING FUNCTION:
 
  strlen()
 -> strlen(*char)
+->int strlen(char const*);
 m      y     s     u     r     u   \0
 0      1     2     3     4     5    6
 701    702   703   704   705   706
@@ -116,14 +129,38 @@ scanf-> doesn't consider space**
 true-> condition holds
 false-> condition fails
 
--------OFFICIAL DOCUMENTATION-------
-C/C++ MSDN, IBM Docs
-PYTHON: docs.python.com
-JAVA:docs.oracle.com
-HTML,CSS,JS: dev.mozilla
+----------PROBLEMS STATEMENT SOLVING---------------
+1. Read the problem. Understand the problem. Write down the I/P data. Assertain the O/P. Isolate unwanted information and data. Focus on the relavant information.
 
-nptel
-CDAC
-MIT Open University
-JAVA:1z0829,1z0830(CERTIFICATION)
+2. Find the solution with trial and error basis or using a specific logic or formula or mathematically etc.
+
+3. Now write down the Algorithm. Step by step procedure. Each step must be simple (SRP) and it must finite.
+
+4. Pseudocode
+
+5. Code it
+-----------------------------------
+Normal Array:
+Size is fixed by the programmer (coding).
+Size cannot change later.
+Deletion depends on storage class
+
+Dynamic Array:
+Size is fixed by the user (during run time).
+Size cannot change later.
+Deletion can be done by the user.
+
+void* malloc(size_t);
+
+int* malloc(40);
+int* maaloc(sizeof(int) * 10);
+scanf(size);
+int* maaloc(sizeof(int) * size);
+
+It allocates memory in Heap for what we are requesting.
+
+------------------DAY 3---------------------------
+
+
+
 
