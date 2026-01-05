@@ -1,0 +1,22 @@
+INSTALLATION OF ORACLE VM VIRTUAL BOX ON WINDOWS
+1.Download the VirtualBox setup file for Windows.
+2.Run the installer (.exe file).
+3.Click Next → keep default options → click Install.
+4.Allow network installation prompts → click Yes.
+5.After installation, click Finish to open VirtualBox.
+6.Click New to create a virtual machine.
+7.Set Name, Type, and Version → click Next.
+8.Assign RAM  → click Next.
+9.Create a Virtual Hard Disk → select VDI, Dynamically allocated, set size → click Create.
+10.Go to Settings → Storage, add your ISO file.
+11.Click Start to boot and install the operating system.
+
+POWER ON -> LOGIN PAGE
+1.POWER BUTTON:when you press it,the computer gets power and starts working.
+2.BIOS:This is the first program that runs. It checks and starts your computer’s hardware.
+3.POST:It quickly tests parts like RAM, keyboard, and hard drive to make sure they work.
+4.Bootloader (GRUB):It finds your operating system (like Ubuntu) and tells it to start.
+5.Kernel Loads:The main part of the OS  starts running and controls the computer’s hardware.
+6.Systemd:It starts all the important background programs that the system needs to work
+7.Display Manager:It starts the graphical screen  and shows the login window.
+8.Login Screen:You type your username and password. The system checks if it’s correct, and if yes, your desktop opens.
