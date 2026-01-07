@@ -1,2 +1,0 @@
-# USN
-CLG PURPOSE
