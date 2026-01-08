@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System | Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <h1>Student Management <span>System</span></h1>
+            <p>Manage student records with ease and elegance.</p>
+        </header>
+
+        <section class="glass-panel main-content">
+            <div class="form-container">
+                <h2>Add New Student</h2>
+                <form id="student-form">
+                    <div class="input-group">
+                        <label for="usn">USN</label>
+                        <input type="number" id="usn" placeholder="Enter USN" required min="1">
+                    </div>
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="marks">Marks</label>
+                        <input type="number" id="marks" placeholder="Enter Marks" required min="0" max="100">
+                    </div>
+                    <button type="submit" class="btn-primary">Add Student</button>
+                </form>
+            </div>
+
+            <div class="actions-container">
+                <h2>Quick Actions</h2>
+                <div class="btn-group">
+                    <button id="btn-sort" class="btn-secondary">Sort by Marks</button>
+                    <button id="btn-clear" class="btn-danger">Clear All</button>
+                </div>
+                
+                <div class="search-box">
+                    <input type="number" id="search-usn" placeholder="Search by USN...">
+                    <button id="btn-search" class="btn-accent">Search</button>
+                </div>
+
+                <div class="delete-box">
+                    <input type="number" id="delete-usn" placeholder="Delete by USN...">
+                    <button id="btn-delete" class="btn-danger">Delete</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-panel records-section">
+            <div class="records-header">
+                <h2>Student Records</h2>
+                <span id="record-count">0 students</span>
+            </div>
+            <div class="table-wrapper">
+                <table id="student-table">
+                    <thead>
+                        <tr>
+                            <th>USN</th>
+                            <th>Name</th>
+                            <th>Marks</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="student-body">
+                        <!-- Dynamic content here -->
+                    </tbody>
+                </table>
+                <div id="no-records" class="no-records">
+                    <p>No student records found.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="notification" class="notification"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
